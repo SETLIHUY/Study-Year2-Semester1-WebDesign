@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My first website</title>
+        <style>
+
+            /* header */
+            .header {
+                display: flex;
+                align-items: center; /* effect for NUBB */
+                gap:12px; /* Help for space */
+                margin-bottom:20px;
+                margin-top: 10px; 
+            }
+            .header img.logo-nubb {
+                width: 100px;
+                height: auto;}
+            .header img.text-welcome {
+                width: 250px;
+                height: auto;}
+            .header span.text-nubb b {
+                font-size: 30px;
+                font-weight: bold;
+                margin-left: 5px;}
+
+            /* first banner */
+            .first-banner img {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+                display: block;}
+
+            /* main title */
+            .main-title h1 {
+                text-align: center;
+                font-size: 30px;
+                font-weight: bold;
+                margin: 18px 0 12px 0;}
+
+            /* hr */
+            hr {
+                border: 0;
+                border-top: 3px solid #999;
+                margin-bottom: 18px;}
+
+            /* Content */
+            .content h3 {
+                font-size: 20px;
+                margin-bottom: 12px;}
+            .content p {
+                font-size: 14px;
+                line-height: 1.45;
+                margin-bottom: 15px;}
+
+            /* topic heading */
+            .topic-heading h3  {
+                font-size: 16px;
+                font-weight: bold;
+                margin-bottom: 8px;}
+
+            /* topic list */ 
+            .topic-list {
+                font-size: 14px;
+                line-height: 1.35;
+                margin-left: 0;
+                margin-top: 16px;
+                padding-left: 25px;}
+            
+            /* Images galley */
+            .gallery {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 4px;
+                max-width: auto;
+                margin:20px ;}
+            .gallery img {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+                display: block;}
+            
+            /* footer*/
+            .footer {
+                border-top: 3px solid #999;
+                margin: 25px;
+                padding-top: 8px;
+                text-align: center;
+                font-size: 13px;}
+
+            /* button Countinus */
+            .button {
+                .continous button {
+                    border-radius: 12px;
+                    border: 1px;
+                    box-shadow: 0;
+                }
+            }
+            
+            /* button Back */
+            .button {
+                .back button {
+                    border-radius: 12px;
+                    border: 1px;
+                    box-shadow: 0;
+                    
+                }
+            }
+
+            /* a */
+            .button {
+                .continous a {
+                    text-decoration: none;
+                }
+            }
+            .button {
+                .back a {
+                    text-decoration: none;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        
+        <!-- Header -->
+        <div class="header">
+            <img class="logo-nubb" src="images/logoNUBB.png" alt="logoNUBB">
+            <img class="text-welcome" src="images/TextWelcome.jpg" alt="textWelcome">
+            <span class="text-nubb"><b>NUBB</b></span>
+        </div>
+
+        <!-- First Banner -->
+        <div class="first-banner">
+            <img src="images/Car.jpg" alt="Model Car">
+        </div>
+
+        <!-- main title -->
+        <div class="main-title"><h1>Information</h1></div>
+        <hr>
+
+        <!-- text content -->
+        <div class="content">
+            <h3>Faculty of Science and Technology at NUBB,in collaboration with USAID and Amazon</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio cum, qui nulla minima consequuntur sint tempora sit! Incidunt dignissimos dolor optio. Repellendus ab necessitatibus nulla praesentium assumenda temporibus accusantium velit.
+                Repellat nulla cumque, sint quaerat tempora repellendus totam incidunt placeat sapiente earum impedit. Ut reprehenderit possimus, accusamus error natus minus veritatis voluptatum illum sint dolorum, vel officiis! Voluptas, deleniti veniam.
+                Nulla delectus unde voluptatem ipsam minima impedit nobis suscipit quis accusamus nostrum dignissimos iure temporibus labore at, rerum nisi esse sint eius? Suscipit aperiam voluptates laudantium, aliquid nostrum perspiciatis minus.
+            </p>
+            
+            <div class="topic-heading"><h3>This training will cover the following topics:</h3></div>
+            <ul class="topic-list">
+                <li>Cloud Concepts</li>
+                <li>Cloud Economics and Billing</li>
+                <li>AWS Global Infrastructure</li>
+                <li>AWS Cloud Security</li>
+                <li>Networking and Content Delivery</li>
+                <li>Compute Services</li>
+                <li>Storage Services</li>
+                <li>Database Services</li>
+                <li>Cloud Architecture</li>
+                <li>Auto Scaling and Monitoring</li>
+                <li>Preparation for AWS Cloud Practitioner Examination.</li>
+            </ul>
+
+            <p>
+               The training will be held at the National University of Battambang for a duration of 3 weeks (equivalent to 45 hours), with 33 students participating. Upon completion of this course, students will have the opportunity to take the exam and obtain an internationally recognized certificate from Amazon. 
+            </p>
+
+        </div>
+        <hr>
+
+        <!-- Photo Grid (6 Images) -->
+        <div class="gallery">
+            <img src="images/car2.jpg" alt="model Car2">
+            <img src="images/car3.jpg" alt="model Car3">
+            <img src="images/car6.jpg" alt="model Car6">
+            <img src="images/car5.jpg" alt="model Car5">
+            <img src="images/car4.jpg" alt="model Car4">
+            <img src="images/car7.jpg" alt="model Car7">
+        </div>
+        
+        <!-- Footer -->
+        <div class="footer">
+            Copy right &copy;NUBB 2024
+        </div>
+
+        <!-- Button Continous and Back -->
+
+        <div class="button">
+            <span class="continous">
+                <button>
+                    <a href="Lesson1.html">Continous</a>
+                </button>
+            </span>
+            <span class="back">
+                <button>
+                    <a href="index.html">Back</a>
+                </button>
+            </span>
+        </div>
+
+    </body>
+</html>
