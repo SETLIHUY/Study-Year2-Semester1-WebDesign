@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            body {
+                background-color: antiquewhite;
+            }
+            h1 {
+                font-family: sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+        <h1>Student Registeration Form</h1>
+        
+        <fieldset >
+            <legend>Personal Information</legend>
+            <p>
+                <label for="fullname">Full Name:</label>
+                <input type="text" placeholder="Enter your full name">
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="text" placeholder="example@gmail.com">
+            </p>
+            <p>
+                <label for="password">Password:</label>
+                <input type="text">
+            </p>
+            <p>
+                <label for="dob">Date of Birth:</label>
+                <input type="date">
+            </p>
+            <p>
+                <input type="radio" name="gamder">Male
+                <input type="radio" name="gamder">Female
+                <input type="radio" name="gamder">Other
+            </p>
+            <p>
+                <label for="phone">Phone</label>
+                <input type="number">
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Academic Information</legend>
+            <p>
+                <label for="stuID">Student ID:</label>
+                <input type="text">
+            </p>
+            <p>
+                <label for="major">Major:</label>
+                <select name="major" id="major">
+                    <option value="Information Technology">Information Technology</option>
+                    <option value="Agriculture">Agriculture</option>
+                </select>
+            </p>
+            <p>
+                <input type="checkbox"  name="gamder">Skills
+                <input type="checkbox" name="gamder">HTML
+                <input type="checkbox" name="gamder">CSS
+                <input type="checkbox" name="gamder">JavaScript
+            </p>
+            <label for="upfile">Upload Photo:</label>
+            <br>
+            <input type="file">
+        </fieldset>
+
+        <fieldset>
+            <legend>Additional Information</legend>
+            <p>
+                <label for="Address">Address</label>
+                <br>
+                <textarea name="Address" id="Address"></textarea>
+            </p>
+            <p>
+                <label for="personalwebsit">Personal Website</label>
+                <input type="text">
+            </p>
+            <p>
+                <label for="favColor">Favorite Color</label>
+                <input type="color">
+            </p>
+        </fieldset>
+        <p>
+            <input type="checkbox"> I agree to the register terms.
+        </p>
+        <button><a href="https://github.com/SETLIHUY?tab=packages" target="_blank">Register</a></button> 
+        <button type="reset">Clear Form</button>
+    </form>
+
+    <!-- Button Continous and Back -->
+        <hr>
+        
+        <div class="button">
+            <span class="continous">
+                <button>
+                    <a href="Lesson5.html">Continous</a>
+                </button>
+            </span>
+            <span class="back">
+                <button>
+                    <a href="Lesson3.html">Back</a>
+                </button>
+            </span>
+        </div>
+    </body>
+</html>
