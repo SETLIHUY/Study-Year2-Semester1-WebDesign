@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My first website</title>
+        <style>
+            /* first_wrap */
+            .first_wrap {
+                background-color: gainsboro;
+                width: 520px;
+                height: 500px;
+                border-radius:12px ;
+                border: solid gainsboro;
+                margin: 0px auto;
+            }
+
+            .first_wrap .second_wrap {
+                background-color: white;
+                width: 475px;
+                height: 450px;
+                border-radius:12px ;
+                border: solid white;
+                margin: 0px auto;
+                margin-top: 20px;
+            }
+
+            .second_wrap h1, p {
+                text-align: center;
+            }
+            .second_wrap h1{
+                color: blue;
+            }
+
+            .space1  {
+                margin-left: 30px;
+            }
+            .space2 {
+               
+                margin-left: 195px;
+            }
+            .space2 a {
+                text-decoration: none;
+            }
+            .login {
+                background-color: blue;
+                border-radius: 12px;
+                border: none;
+                margin-left: 30px;
+                padding-left: 190px;
+                padding-right: 190px;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                font-size: 20px;
+                color: white;
+                margin-top: 10px;
+            }
+            .input input {
+                border-radius: 12px;
+                border: 3px solid gainsboro ;
+                margin-left: 10px;
+                width: 90%;
+                height: 50px;
+            }
+            .Register {
+                text-decoration: none;
+            }
+
+            .button button {
+                margin-left: 10px;
+                margin-top: 10px;
+                padding-left: 5px;
+                padding-right: 5px;
+                border-radius: 7px;
+                border: none;
+                height: 30px;
+                background-color: burlywood;
+            }
+            .button a {
+                text-decoration: none;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <div class="first_wrap">
+            <div class="second_wrap">
+                <h1>Welcome Back!</h1>
+                <p>Please login to your account</p>
+
+                <form action="https://github.com/SETLIHUY">
+
+                    <div class="input">
+                        <label for="Email">Email Address</label>
+                    <br>
+                    <input type="text" placeholder="Enter your email">
+                    <br>
+                        <label for="Password">Password</label>
+                        <br>
+                        <input type="text" placeholder="Enter your password">
+                    </div>
+
+                    <span class="space1"><input type="checkbox"> Remember Me</span>
+
+                    <span class="space2"><a href="#forget">Forgot Password?</a></span>
+                    <br>
+                    <button class="login">Login</button>
+                    <p>Don't have an account?
+                        <a class="Register" href="#register">Register</a>
+                    </p>
+                
+                </form>
+
+            </div>
+        </div>    
+
+        <!-- Button Continous and Back -->
+        <hr>
+        
+        <div class="button">
+            <span class="continous">
+                <button>
+                    <a href="Lesson10.html">Continous</a>
+                </button>
+            </span>
+            <span class="back">
+                <button>
+                    <a href="Lesson8.html">Back</a>
+                </button>
+            </span>
+        </div>
+
+    </body>
+</html>
